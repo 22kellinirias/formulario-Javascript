@@ -5,62 +5,105 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 <body>
-<main id="main">
-  <h1>INSCRIBETE</h1>
-  <form class="form">
-  <div   class="contenedor-padre">
-    <div class="contenedor-hijo">
-      <label for="name">Nombre</label>
-      <input
-      type="text"
-      name="nombre"
-      id="nombre"
-      placeholder="">
-  
-      
-      <label for="name">Trabajo</label>
-      <input
-      type="text"
-      name="nombre"
-      id="trabajo"
-      placeholder="">
-    </div>
+  <h1 class="titulo">INSCRIBETE</h1>
+  <section class="seccion">
+    <div class="caja">
+      <form id="form">
+      <div class="contenedor-padre">
+          <label for="name" class="label">Nombre</label>
+          <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          class="input"
+          placeholder="kellin irias">
     
-    <div class="contenedor-hijo">
-      <label for="name">Correo</label>
-      <input
-      type="email"
-      name="email"
-      id="email"
-      placeholder="">
-      
-      
-      <label for="name">Celular</label>
-      <input
-      type="number"
-      name="number"
-      id="number"
-      placeholder="">
-    </div>
+          <label for="name" class="label">Trabajo</label>
+          <input
+          type="text"
+          name="nombre"
+          id="trabajo"
+          class="input"
+          placeholder="infort">
+        </div>
 
-    <div class="contenedor-hijo">
-      <label for="name">Sobre ti</label>
-      <input
-      type="text"
-      name="nombre"
-      id="info"
-      placeholder="">
+        <div class="contenedor-hijo">
+          <label for="name" class="label">Correo</label>
+          <input
+          type="email"
+          name="email"
+          id="email"
+          class="input"
+          placeholder="meliirias95@gmail.com">
+          
+          <label for="name" class="label">Celular</label>
+          <input
+          type="number"
+          name="number"
+          id="number"
+          class="input"
+          placeholder="+504 31609413">
+        </div>
+
+          <label for="name" class="label">Sobre ti</label>
+          <input
+          type="text"
+          name="nombre"
+          id="info"
+          class="input"
+          placeholder="aprendiendo javascrip">
+        <div class="btn">
+          <button type="submit" id="submit">Enviar</button>
+        </div>
+      </form>
     </div>
-    <button type="submit" id="submit">
-      Enviar|
-    </button>
+  </section>  
+
+
+  <div class="contenido">
+      <img src="./assets/img/perfil.jpg" class="img3">
+      <div class="descripcion">
+        <form id="form">
+          <div class="contenedor-padre">
+              <label for="name" class="label">Informacion</label>
+              <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              class="input"
+              placeholder="kellin irias">
+        
+              <label for="name" class="label">Trabajo</label>
+              <input
+              type="text"
+              name="nombre"
+              id="trabajo"
+              class="input"
+              placeholder="infort">
+            </div>
+    
+            <div class="contenedor-hijo">
+              <label for="name" class="label">Correo</label>
+              <input
+              type="email"
+              name="email"
+              id="email"
+              class="input"
+              placeholder="meliirias95@gmail.com">
+              
+              <label for="name" class="label">Celular</label>
+              <input
+              type="number"
+              name="number"
+              id="number"
+              class="input"
+              placeholder="+504 31609413">
+            </div>
   </div>
-  </form>
-</main>
+</div>
 
-   
 </body>
 </html>
