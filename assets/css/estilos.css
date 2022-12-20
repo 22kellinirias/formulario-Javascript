@@ -47,3 +47,12 @@ background: -webkit-linear-gradient(90deg, rgba(97,19,96,1) 0%, rgba(176,112,165
 background: linear-gradient(90deg, rgba(97,19,96,1) 0%, rgba(176,112,165,1) 31%, rgba(216,177,209,1) 47%, rgba(231,175,204,1) 59%, rgba(151,49,191,1) 80%, rgba(52,4,32,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#611360",endColorstr="#340420",GradientType=1);
 }
+
+.img3{
+  width: 63px;
+}
+.contenido,
+.descripcion {
+    display: flex;
+   
+}
